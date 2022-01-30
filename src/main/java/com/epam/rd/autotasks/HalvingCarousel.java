@@ -6,7 +6,7 @@ public class HalvingCarousel extends DecrementingCarousel {
     protected int[] arr;
     protected int capacity;
     private int i = 0;
-    private boolean runHav = false;
+    private boolean runEd = false;
 
     public HalvingCarousel(final int capacity) {
         super(capacity);
@@ -34,9 +34,9 @@ public class HalvingCarousel extends DecrementingCarousel {
     @Override
     public HalvingCarousel run() {
 
-        if (!runHav) {
-            runHav = true;
-            return this;
+        if (!runEd) {
+            runEd = true;
+            return HalvingCarousel.this;
         } else
             return null;
     }
