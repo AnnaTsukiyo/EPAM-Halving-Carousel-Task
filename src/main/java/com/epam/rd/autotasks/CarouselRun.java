@@ -2,8 +2,6 @@ package com.epam.rd.autotasks;
 
 import java.util.Arrays;
 
-import java.util.Arrays;
-
 public class CarouselRun {
 
     protected int[] arr;
